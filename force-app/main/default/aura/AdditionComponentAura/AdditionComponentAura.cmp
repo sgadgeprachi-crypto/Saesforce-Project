@@ -1,0 +1,14 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global">
+  <!-- Defining attributes -->
+    <aura:attribute name="inputOne" type="Integer" />
+     <aura:attribute name="inputTwo" type="Integer" />
+    
+   <div class="row">
+        <h2 class="header">Basic Input Number</h2>
+        <lightning:input type="number" name="input1" label="Enter a number 1" />
+        <lightning:input type="number" name="input2" label="Enter a number 2" />
+       
+        
+    </div>
+ 
+</aura:component>
