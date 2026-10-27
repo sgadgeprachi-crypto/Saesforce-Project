@@ -11,6 +11,7 @@ public class loopsInApex {
         }
         system.debug('hiii');
         system.debug('statement 2');
+        system.debug('statement 3');
         
     }
 
